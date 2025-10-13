@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Pirates_Tides_Of_Fortune.sln"
+    "dotnet.defaultSolution": "Pirates-Tides-Of-Fortune.sln"
 }
