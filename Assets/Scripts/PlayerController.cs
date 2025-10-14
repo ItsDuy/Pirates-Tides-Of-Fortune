@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpForce = 7.5f;
-    [SerializeField] private float groundCheckRadius = 1f;
+    [SerializeField] private float groundCheckRadius = 0.1f;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     private Rigidbody2D rb;
@@ -42,9 +42,16 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
+            animator.SetTrigger("isJumping");
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
-        
+    private void OnDrawGizmosSelected()
+    {
+        if (groundCheck == null)
+            return;
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+    }
     
 }
