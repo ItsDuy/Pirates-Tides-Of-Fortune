@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 312604563}
   - component: {fileID: 312604565}
   - component: {fileID: 312604564}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DustTrial
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
@@ -5617,10 +5617,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -5759,7 +5759,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.8949347, y: -0.45025998, z: -10.004248}
+  m_LocalPosition: {x: 2.8948498, y: -0.45025998, z: -10.004248}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5841,7 +5841,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 633524649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
@@ -13257,7 +13257,7 @@ GameObject:
   - component: {fileID: 895474446}
   - component: {fileID: 895474443}
   - component: {fileID: 895474445}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14120,7 +14120,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1408143868
 Transform:
   m_ObjectHideFlags: 0
@@ -14287,7 +14287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1429785710}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14371,8 +14371,8 @@ RectTransform:
   m_GameObject: {fileID: 1596317089}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1164452033}
   - {fileID: 1189761394}
@@ -14382,7 +14382,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -434, y: 205}
+  m_AnchoredPosition: {x: -658, y: 325}
   m_SizeDelta: {x: 136, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1596317091
@@ -14638,7 +14638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1741304997
 Transform:
   m_ObjectHideFlags: 0

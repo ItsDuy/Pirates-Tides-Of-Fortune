@@ -125,10 +125,11 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isFalling", true);
         }
         
-        // Reset falling animation only when player lands on ground
+        // Reset falling animation and trigger ground landing animation when player lands
         if (isGrounded && animator.GetBool("isFalling"))
         {
             animator.SetBool("isFalling", false);
+            animator.SetTrigger("isGround"); // Trigger the ground landing animation
         }
     }
     
